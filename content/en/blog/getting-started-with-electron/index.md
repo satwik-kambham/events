@@ -17,7 +17,7 @@ Some of the most famous apps that have been made using electron are:
 
 1. Visual Studio Code
 2. Twitch
-3. Microsoft Teams 
+3. Microsoft Teams
 4. Whatsapp Desktop
 
 Since electron apps use HTML, CSS and JavaScript, you can also use various libraries such as React, Bootstrap, etc.

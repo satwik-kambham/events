@@ -16,9 +16,11 @@ toc: true
 Now let us add some functionality to add some todos.
 
 ## Adding text box and button
+
 First, let us add a button and a textbox where we can enter and add todos.
 
 We can do this by adding the following lines of code to the body of our html just below the div which contains the todos.
+
 ```html
 <input id="add-inp" type="text" />
 <button id="add-btn">Add</button>
@@ -27,6 +29,7 @@ We can do this by adding the following lines of code to the body of our html jus
 Also let us change the title to say `To-do list app`.
 
 After this, you `index.html` file should look like this.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -70,11 +73,13 @@ function addTodo() {
 ```
 
 Now let us bind the add button to call this function.
+
 ```javascript
 document.getElementById("add-btn").addEventListener("click", () => addTodo());
 ```
 
 After doing this, your `index.js` file should look like this:
+
 ```javascript
 let Todos = [
   {

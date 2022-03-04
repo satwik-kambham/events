@@ -29,11 +29,13 @@ Let us add a title and a div which can store the todos. Replace the body of `ind
 In electron, the main script file (in our case `main.js`) cannot directly access and modify the html page. To do that, we need to link another script file so that we can modify the html file.
 
 Create a file named `index.js` and add the following to the body of `index.html`:
+
 ```html
 <script src="index.js"></script>
 ```
 
 Once you have done this, your `index.html` file should look like this:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -105,11 +107,13 @@ function displayTodos(todos) {
 ```
 
 Finally, let us run this function. To do this add the following line in `index.js`:
+
 ```javascript
 displayTodos(Todos);
 ```
 
 At this point your `index.js` file should look like this:
+
 ```javascript
 let Todos = [
   {

@@ -16,22 +16,28 @@ toc: true
 As a final step to our project let use the bootstrap css library to make our app look appealing. If you don't really know what bootstrap is, it is a css library which allows you to quickly create beautiful websites. You can read more about it [here](https://getbootstrap.com/).
 
 ## Installing the bootstrap library
+
 First, let us install the bootstrap library. Run the following command to install the bootstrap library:
-```
+
+```console
 npm install bootstrap --save
 ```
 
 ## Linking bootstrap to index.html
+
 To use bootstrap in your html file you need to link it by adding the following line of code inside the head of the html:
+
 ```html
 <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
 ```
 
 ## Adding bootstrap to index.html
+
 At this point, if you run your app, it should look something like this:
 ![App after linking bootstrap](plain-bootstrap.jpg)
 
 Let us improve it by first adding some padding. Modify the body tag of your html file by adding the class `p-3` to it. Now the html's body should look like this:
+
 ```html
 <body class="p-3">
   ...
@@ -39,6 +45,7 @@ Let us improve it by first adding some padding. Modify the body tag of your html
 ```
 
 Next up, add the class `list-group` to your todos div element so that it looks like this:
+
 ```html
 <div class="list-group" id="todos"></div>
 ```
@@ -71,7 +78,9 @@ At this point your `index.html` should look like this:
 ```
 
 ## Adding bootstrap to todos
+
 Next let us add bootstrap to the todos that we add. Let us change our `displayTodos()` function like so:
+
 ```javascript
 function displayTodos(todos) {
   // Get the div inside which we are going to store the todos

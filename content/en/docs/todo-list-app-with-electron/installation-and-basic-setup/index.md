@@ -15,7 +15,7 @@ toc: true
 
 ## Installing Node.js
 
-To get started with electron, you need to install [Node.js](https://nodejs.org/en/). 
+To get started with electron, you need to install [Node.js](https://nodejs.org/en/).
 
 Go to [nodejs.org/en/download/](https://nodejs.org/en/download/) and download the LTS or Long Term Support version. Once its downloaded, install node.js on your system.
 
@@ -23,7 +23,7 @@ Go to [nodejs.org/en/download/](https://nodejs.org/en/download/) and download th
 
 Once you have installed node.js, you can test your installation by running the following commands in the terminal.
 
-```
+```console
 node -v
 npm -v
 ```
@@ -39,6 +39,7 @@ VSCode is a light-weight text editor with lots of useful features such as integr
 To install VSCode, head over to the [official website](https://code.visualstudio.com/).
 
 ## Setting up electron
+
 To create an electron app, first create and open the folder for you app inside VSCode.
 
 Then open up the terminal inside VSCode by hitting `Ctrl + J`.
@@ -66,17 +67,21 @@ This command with generate a file named `package.json` which looks like this.
 ### Installing the electron package
 
 Finally we need to install the electron package to do this, run the following command in the terminal:
-```
+
+```console
 npm install --save-dev electron
 ```
 
 Inside the  `package.json` file which was created, replace the lines
+
 ```json
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
 },
 ```
+
 with
+
 ```json
 "scripts": {
   "start": "electron ."
@@ -87,7 +92,7 @@ with
 
 To get our app running we need to create a few files with the following content.
 
-1. `main.js` - The starting point of our app
+- `main.js` - The starting point of our app
 
 ```javascript
 // Import from the electron library
@@ -113,10 +118,9 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   app.quit();
 });
-
 ```
 
-2. `index.html` - The html page displayed on the window
+- `index.html` - The html page displayed on the window
 
 ```html
 <!DOCTYPE html>
