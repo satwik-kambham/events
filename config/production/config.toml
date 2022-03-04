@@ -1,1 +1,2 @@
-canonifyURLs = false
+baseurl = "https://code-explorer.github.io/events/"
+canonifyURLs = true
