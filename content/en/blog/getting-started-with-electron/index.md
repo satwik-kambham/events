@@ -12,9 +12,6 @@ contributors: []
 
 ![Electron Cover Image](Electron-Cover-Image.jpg)
 
-<a class="btn btn-primary" href="https://forms.office.com/r/NFivnWW8UC" target="_blank">Registration Link</a>
-<a class="btn btn-primary" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWQwOWQxYTAtMWE1OS00NDliLTlmYzAtNGViMGFmMWJhODc2%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%22ce9effd6-6433-4a6a-977d-e0a7c2f90f92%22%7d" target="_blank">Event Link</a>
-
 [Electron](https://www.electronjs.org/) is a framework for building cross-platform desktop applications using JavaScript, HTML, and CSS. With electron you can use existing web development skills to create desktop applications.
 
 Some of the most famous apps that have been made using electron are:
