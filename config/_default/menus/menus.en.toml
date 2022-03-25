@@ -24,7 +24,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/todo-list-app-with-electron/installation-and-basic-setup/"
+  url = "/docs/intro-to-git-and-github/what-is-git/"
   weight = 10
 
 [[main]]

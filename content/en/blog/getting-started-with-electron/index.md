@@ -5,7 +5,7 @@ lead: ""
 date: 2022-03-02T18:57:27+05:30
 lastmod: 2022-03-02T18:57:27+05:30
 draft: false
-weight: 10
+weight: 50
 images: ["Electron-Cover-Image.jpg", "eDEX-UI.png"]
 contributors: []
 ---
