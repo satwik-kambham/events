@@ -6,13 +6,13 @@ date: 2022-03-23T17:02:10+05:30
 lastmod: 2022-03-23T17:02:10+05:30
 draft: false
 weight: 49
-images: ["MLSA.jpg"]
+images: ["MLSA.png"]
 contributors: []
 ---
 
-![Flyer](MSLA.jpg)
+![Flyer](MSLA.png)
 
-<a class="btn btn-primary" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTU3NzliYzYtNWIwZi00YjBiLWFlYzAtZTdiODI1NDFiMGI3%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%22ce9effd6-6433-4a6a-977d-e0a7c2f90f92%22%7d" target="_blank">Event Link</a>
+<a class="btn btn-primary" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDdjMDA5ODktYjc2Yi00M2M2LTgxNGItOGM5NDI2MDdmYmEw%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%22ce9effd6-6433-4a6a-977d-e0a7c2f90f92%22%7d" target="_blank">Event Link</a>
 
 Join me in this workshop where you can let about Git and GitHub from the very basics.
 
